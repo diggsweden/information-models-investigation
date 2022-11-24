@@ -2,6 +2,16 @@
 
 Denna leverabel syftar till att ge en bakgrund vad som menas med informationsmodeller, systemstöd för informationsmodeller och relationer till annan metadata i en digital infrastruktur. Speciellt behöver koppling till ramverket för nationella grunddata samt European Interoperability Framework tydliggöras.
 
+Innehållsförteckning
+
+* Introduktion
+* Modelleringsspråk
+* Relationer till svenska och europeiska ramverk
+* Stöd på dataportal idag
+* Analys av interoperabiliteskrav och användning av länkade data som en väg framåt
+* Användning av länkade data
+* Sammanfattning
+
 ## Introduktion
 Med informationsmodell menar vi de ramar som man sätts upp för att beskriva hur informationen är strukturerad. Mer konkret sker detta genom att man beskriver karaktären på ett antal (typer av) entiteter samt eventuella relationer mellan dessa.
 
@@ -30,7 +40,18 @@ Ur denna enkla tabell ser man att det vore optimalt om man kunde kombinera styrk
 
 ### UML
 
-TODO
+UML är ett modelleringspråk som har sin grund i objektorienterad mjukvaruutveckling och används främst för att beskriva hur system är designade. UML togs fram på 90-talet för att förena den flora av olika visuella uttryck som växt fram. Sedan dess har UML standardiserats inom ISO och uppdaterats i flera omgångar. Den senaste versionen är 2.5.1 och innefattar en mängd olika diagramtyper där den som oftast används är klassdiagram vilket också den som är mest relevant för informationsmodellering. För att utbyta UML modeller finns XML baserade uttrycket XMI. 
+
+UML togs fram med det uttryckligt syftet att stödja "round-trip engingeering" vilket betyder att man kan beskriva sina informationsmodeller och få kod, iallafall den översiktliga strukturen automatiskt genererad. Den omvända riktningen var också tänkt, dvs att man fortsätter att skriva kod och UML diagrammen hålls uppdaterade utifrån de ändringar / tillägg man gör. Detta realiserades sällan (och fungerade i allmänhet också dåligt). En viktig effekt av detta är att UML diagram har en relativt stark bindning till det objektorienterade arbetsättet och leder till att det finns konstruktioner som är för detaljerade / irrelevanta för de behov som finns kring informationsmodellering. Låt oss fokusera på klassdiagram.
+
+Klassdiagram tillåter att man beskriver klasser med klassens namn, dess attribut och dess metoder. Attributen beskrivs med namn, datatyper, kardinalitet vilket är bra. Men de har också information om attributens synlighet (private, public, protected) samt om de är konstruktorer. Den senare informationen är implementationsdetaljer som inte behövs ur ett informationsmodelleringsperspektiv. Detsamma gäller för klassens metoder, det är inget som behövs.
+
+Man kan också uttrycka relationer mellan klasser. Med generaliseringsrelationen uttrycker man om klasser ärver från varandra. Ur ett mer matematiskt perspektiv motsvarar en klass en mängd instanser. För generaliseringsrelationen innebär det att om vi har två klasser A och B, där A generaliserar B så innebär det att A är en delmängd av B. Dvs. generalisering är delmängdsrelationen.
+
+De andra relationerna som uttrycks i diagramet mellan klasserna är egentligen platshållare för relationer mellan instanserna. Den viktigaste är relationen association, en association kan i princip relatera många klasser men vi kommer här fokusera på de binära associationerna. En binär association går mellan två klasser och kan vara riktad eller oriktad, man kan ge den namn samt beskriva klassernas roller och kardinalitet. T.ex. är associationen en-till-många, många-till-en eller många-till-många.
+
+Relationerna aggregation och komposition är egentligen specialfall av associationsrelationen som innebär att man uttrycker att en klass är en del av en annan klass. Oftast innebär det att man inte namnger relationen, vilket kan bli problematiskt ur ett kompatibiltetsperspektiv.
+
 
 ### RDFS/OWL/SHACL
 
