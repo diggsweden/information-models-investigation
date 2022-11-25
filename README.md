@@ -51,6 +51,6 @@ Som en del av förstudien etableras en referensgrupp (se ovan) som involveras ge
 
 Notera att översikten tas fram initialt för att ge en startpunkt och förenkla arbetet tillsammans i referensgruppen. Översikten kommer ses som ett levande dokument under hela förstudien.
 
-### Anteckningar från möten med olika aktörer
+### Dialoger med olika aktörer
 
-Inga ännu.
+[Sammanställning av frågor](dialoger/fragor.md) som jag hoppas kunna få djupare förståelse för i dialog med respektive aktör.
