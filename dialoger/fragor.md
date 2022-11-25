@@ -1,5 +1,8 @@
 # Frågor inför dialog
 
+> Observera att frågorna sannolikt kommer uppdateras fram till de olika mötena. Dessutom är frågorna att betrakta som utkast och kommer naturligtvis också anpassas utifrån varje dialog.
+
+
 ## A. Hur jobbar ni med informationsmodeller idag.
 
 1. Hur många är inblandade och i vilken omfattning?
