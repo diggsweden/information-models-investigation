@@ -14,7 +14,7 @@ Förstudien ska leda fram till följande leverabler:
 En genomgång av existerande system och hur de kan möta olika behov. Särskilt fokus kommer läggas på system som är i drift i Sverige, våra nordiska grannländer och Europa i övrigt. En begränsning är att enbart system som är tillgängliga som öppen källkod kommer beaktas.
 
 ### C. Behovskartläggning
-Sammanställa behov från i huvudsak grunddata domänerna men också andra aktörer. Man bör beakta både omedelbara praktiska behov och mer långsiktiga strategiska som hur man främjar interoperabilitet ur ett europeiskt / internationellt perspektiv. Behovskartläggningen ska också innefatta aspekter kring hur en lösning ska kunna integreras med övriga delar av Sveriges digitala infrastruktur, t.ex. Sveriges dataportal och befintliga lösningar som används på myndigheter idag.
+Sammanställa behov från i huvudsak grunddatadomänerna men också andra aktörer. Man bör beakta både omedelbara praktiska behov och mer långsiktiga strategiska som hur man främjar interoperabilitet ur ett europeiskt / internationellt perspektiv. Behovskartläggningen ska också innefatta aspekter kring hur en lösning ska kunna integreras med övriga delar av Sveriges digitala infrastruktur, t.ex. Sveriges dataportal och befintliga lösningar som används på myndigheter idag.
 
 ### D. Kravställning och testfall
 Kravställning med tydliga testfall tas fram i samverkan med referensgruppen utifrån en prioritering av den behovskartläggning som gjorts.
@@ -53,4 +53,13 @@ Notera att översikten tas fram initialt för att ge en startpunkt och förenkla
 
 ### Dialoger med olika aktörer
 
-[Sammanställning av frågor](dialoger/fragor.md) som jag hoppas kunna få djupare förståelse för i dialog med respektive aktör.
+[Sammanställning av frågor](dialoger/fragor.md) som kommer vara utgångspunken för dialogen med respektive aktör.
+
+Anteckningar från respektive dialog:
+
+* [Grunddatadomän Person](dialoger/skatteverket.md)
+* [Grunddatadomän Transportsystem](dialoger/trafikverket.md)
+* [Naturvårdsverket](dialoger/naturvardsverket.md)
+* [Grunddatadomän företag](dialoger/bolagsverket.md)
+* [Grunddatadomän Fastighets- och geografisk information](dialoger/lantmateriet.md)
+* [Grunddatadomän hälsa, vård och omsorg](dialoger/ehalsomyndigheten.md)
