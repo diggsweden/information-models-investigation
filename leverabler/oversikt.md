@@ -55,7 +55,25 @@ Relationerna aggregation och komposition är egentligen specialfall av associati
 
 ### RDFS/OWL/SHACL
 
-TODO
+RDF är ett ramverk för att uttrycka påståenden om *ting* som identifieras med URI:er. URI:erna kan representera digitala ting som webbsidor men kan fysiska objekt som personer och platser eller mer abstrakta fenomen som organisationer, datamängder eller begrepp. Alla påståenden består av tre delar, subject, predicat och objekt. Man kallar ofta påståenden för tripplar då de består av tre delar. Subjektet är det ting som påståendet handlar om. Predikat och objekt i en trippel kan ses som ett attribut värde-par om tinget (subjektet). Precis som tinget uttrycks predikatet också alltid med URI:er, dessa URI:er kallas properties. Objektet däremot kan vara en sträng, en datatyp eller ett annat ting (då i form av en URI).
+
+En mängd triplar kan använda samma URI:er, en del i subjektposition och en del i objektposition, tillammans bygger de upp en RDF graf. Det är möjligt att tänka sig att alla tripplar i världen bildar en gigantisk jättegraf, men i praktiken går en sådan graf aldrig att samla in. Ett mer praktiskt betraktelsesätt är att det finns många mindre grafer som är nåbara på olika webbadresser. Om det inne i graferna finns URI:erna som motsvarar ting och dessa ting motsvarar RDF grafer har vi skapat länkar till grafer. Det är detta som är kallas länkade data.
+
+Förutom de exempel på ting som nämns ovan kan ting också vara klasser (för att dela in ting i olika mängder) och properties (som förekommer i predikatpositionen i triplar). Det språk som man använder för att definiera klasser och properties är en slags data-modelleringsvokabulär som kallas RDF Schema. RDF Schema har ett sätt att ange att ett ting är en klass eller en property, samt ett antal andra mekanismer för att beskriva dess karaktär.
+
+En av de större skillnaderna mellan RDFS och UML är att properties kan definieras oberoende av klasser. T.ex. `dcterms:publisher` är en property som utrycker att ett ting har en utgivare. Men propertyns användningsområde behöver inte vara begränsad till böcker eller tidningar. Istället är `dcterms:publisher` definerad på ett allmänt sätt (den appliceras på den generella klassen rdf:Resource vilket alla ting är instanser av). Det innebär att när en annan standardiseringsgrupp i ett senare skede ville definiera klassen av alla datamängder, då kan man återanvända dcterms:publisher utan att bryta mot några regler.
+
+En annan viktig skillnad är att det är väldefinierat hur man kombinerar påståenden från olika källor. Dvs om två aktörer beskriver samma ting genom att referera till tinget med samma URI så kan deras påståenden förstärka varandra. Rent praktiskt innebär det att det är väldinierat hur man slår samman två RDF grafer. T.ex. skatteverkets och trafikverkets påståenden om en person kan kombineras i en RDF graf utan att man behöver introducera nya format, nya informationsmodeller eller bygga nya system (givet att systemen använder RDF som intern modell). Detta innebär inte nödvändigtvis att skattverkets system förstår vad påståenden från Trafikverket betyder och kan agera utifrån dem på något sätt. Det avgörs av vilka klasser och properties som används och vilka skatteverket förstår. En sannolik effekt är att Skatteverkets system helt ignorerar den nya informationen fram till den punkt att man väljer att lägga till ytterligare stöd i systemet. Möjligheten att enkelt kombinera information innebär att bör vara mer uppmärksam på vilka källor man har förtroende för. Detat är förstås inget unikt för RDF med flexibiliteten gör att det blir extra tydligt.
+
+En naturlig konsekvens av att information kan kombineras enkelt är att man då kan fokusera mer på interoperabilitetsaspekter. I praktiken vill man återanvända klasser och properties så långt som möjligt för att därmed maximera förståelsen i olika system. Samtidigt har man möjligheten att enkelt utvidga existerande informationsmodeller när klasser och propeties saknas för att uttrycka något nytt. I dagsläget finns en uppsjö av klasser och properties som etableras av olika grupperingar, internationellt, på EU nivå, nationellt, av olika intressegrupper, domän specifika uttryck osv. Att återanvända klasser och properties är idag den rekommenderade vägen framåt, men det kan ibland vara utmanande att hitta rätt. Det finns lite olika mekansismer för att formellt uttrycka hur man återanvänder klasser och properties, den mest etablerade idag kallas SHACL.
+
+För att sammanfatta, ur ett interoperabilitetsperspektiv är det fyra saker som är särskilt användbara när man använder länkade data för informationsmodeller:
+
+1. Att alla klasser och properties har identifierare i form av URI:er gör att det är väldefinierat hur man återanvänder dem.
+2. Att properties kan definieras helt oberoende av klasser.
+3. Att påståenden (RDF grafer) enkelt kan kombineras vilket lägger grunden för gemensam bearbetning och interoperabilitet.
+4. Att det finns en stor mängder av genomtänkta klasser och properties som kan återanvändas direkt, kombineras på nya sätt eller förfinas. Man behöver sällan börja helt från början. 
+
 
 ## Relationer till svenska och europeiska ramverk
 
@@ -210,7 +228,7 @@ Observera att bara för att man använder länkade data och därmed RDF för att
 
 Det är tydligt att idag finns inget självklart val av modelleringsspråk som täcker alla behov. Väljer man att förlita sig på UML så tappar man aspekter kring interoperabilitet. Väljer man istället att fokusera på enbart länkade data i form av RDFS/OWL/SHACL så får man istället problem med att etablera bra grafiska / visuella representationer i form av diagram som många förstår.
 
-Vi också att det finns en stark rörelse mot användning av länkade data på europeisk / internationell nivå, särskilt då det är de enda exemplen som tas i European Interoperability Framework (t.ex. core vocabularies).
+Vi ser också att det finns en stark rörelse mot användning av länkade data på europeisk / internationell nivå, särskilt då det är de enda exemplen som tas i European Interoperability Framework (t.ex. core vocabularies).
 
 Samtidigt poängteras i det svenska nationella ramverket kring grunddata hur viktigt de grafiska / visuella representationerna av informationsmodeller är.
 
