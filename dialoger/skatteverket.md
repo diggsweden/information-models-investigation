@@ -59,12 +59,13 @@ Naturvårdsverket har tagit in skatteverkets modeller.
 På gång med krav / samarbeten för att exponera begrepp och information mellan myndigheter.
 
 ## D. Vilka verktyg använder ni?
-
-### D1. Exporterar ni till andra format (t.ex. utöver .eap exportera till xmi eller rena bilder)?
 Sparx för enterprisenivå.
 
+### D1. Exporterar ni till andra format (t.ex. utöver .eap exportera till xmi eller rena bilder)?
+Ja, XMI och PDF på extern webb.
+
 ### D2. Använder ni några extra funktioner, t.ex. UML stereotyper eller liknande?
-Ja, egen metamodell.
+Ja, egen metamodell via MDG technologies.
 
 ### D3. Finns det behov som inte är tillgodosedda med verktygen ni jobbar med?
 Återanvändning av attribut mellan klasser är svårt, det blir kopior.
@@ -120,5 +121,4 @@ Tveksamt, en automatik är det viktiga. Hur mycket information blir tillgänglig
 ## Övrigt
 
 * E-sam har samarbetsgrupp kring hur man använder Sparx.
-* Skatteverket använder sig av "Sparx teknologier" för anpassningar.
 * På skatteverket betraktas de interna informationsmodellerna som folkbokföring medans de informationsmodeller som motsvarar det man kommunicerar utåt kallas för avisering.

@@ -59,11 +59,6 @@ Arkitektgruppen ställer krav, DIGGs ramverk ställer krav.
 Avveckling sker av Qualiware, bakgrund i ledningssystem. Viss aktiv förvaltning kvarstår.
 I dagsläget sker modellering i draw.io och Visio.
 
-Exempel:
-http://samverkan.bolagsverket.se/gu/ConceptModel/288841c9-624f-47bb-a007-9dbd21f2675b.html
-http://samverkan.bolagsverket.se/gu/DataModelDiagram/cad45e93-c3ad-40b2-a66d-f73f9f1de2bd.html
-http://samverkan.bolagsverket.se/gu/HTMLDocument/df494ff5-33db-4508-b4b8-73df079f688c.html
-
 ### D1. Exporterar ni till andra format (t.ex. utöver .eap exportera till xmi eller rena bilder)?
 Webbexport från QualiWare i vissa fall.
 
@@ -123,3 +118,8 @@ Ja, det finns ett värde, men man behöver ta fram en governance funktion för a
 * [XBRL taxonomi](https://xbrl.taxonomier.se/dokumentation/arsredovisning/k3/2021-rev20220524/index.html)
 * [Bastjänsten för grundläggande uppgifter om företag](https://www.bolagsverket.se/omoss/utvecklingavdigitalatjanster/densammansattabastjanstenforgrundlaggandeuppgifteromforetag/dokumentationforsammansattabastjansten.2249.html)
 * [Modell i Tietomallit](https://tietomallit.suomi.fi/model/ncdrm/Organization/)
+
+### Exempell på modeller i externwebb via QualiWare
+* [exempel 1](http://samverkan.bolagsverket.se/gu/ConceptModel/288841c9-624f-47bb-a007-9dbd21f2675b.html)
+* [exempel 2](http://samverkan.bolagsverket.se/gu/DataModelDiagram/cad45e93-c3ad-40b2-a66d-f73f9f1de2bd.html)
+* [exempell 3](http://samverkan.bolagsverket.se/gu/HTMLDocument/df494ff5-33db-4508-b4b8-73df079f688c.html)

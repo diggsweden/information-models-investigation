@@ -63,3 +63,5 @@ Anteckningar från respektive dialog:
 * [Grunddatadomän företag](dialoger/bolagsverket.md)
 * [Grunddatadomän Fastighets- och geografisk information](dialoger/lantmateriet.md)
 * [Grunddatadomän hälsa, vård och omsorg](dialoger/ehalsomyndigheten.md)
+
+[Sammanfattning av dialogerna](dialoger/sammanfattning.md)
