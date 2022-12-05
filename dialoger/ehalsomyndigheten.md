@@ -54,13 +54,13 @@ Ej i lag, föreskrift eller förordning.
 ## D. Vilka verktyg använder ni?
 Sparx EA, Sparx Prolaborate
 Socialstyrelsen: Visual Paradigm
-Simplifier i samband med FHIR.
+Simplifier i samband med FHIR
 
 ### D1. Exporterar ni till andra format (t.ex. utöver .eap exportera till xmi eller rena bilder)?
 HTML, pdf, bild i samband.
 
 ### D2. Använder ni några extra funktioner, t.ex. UML stereotyper eller liknande?
-Eventuellt extra stöd för koppling till kodverk.
+Eventuellt extra stöd för koppling till kodverk.  MDG teknologier.
 
 ### D3. Finns det behov som inte är tillgodosedda med verktygen ni jobbar med?
 Mer intuitivt gränssnitt i Sparx.
