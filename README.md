@@ -35,9 +35,14 @@ DIGG |
 ## Workshops
 Under förstudien planerar referensgruppen ha tre gemensamma workshops:
 
-* Introduktion till frågeställningarna kring systemstöd för informationsmodeller.
-* Genomgång av nulägesanalysen (leverans C) och vilka ytterligare delar som ska med i behovkartläggningen (leverans B).
-* Prioritering av kravställningar och testfall (levans D) utifrån vad som framkommit i behovskartläggningen (leverans C).
+### Introduktion till frågeställningarna kring systemstöd för informationsmodeller
+
+* [Underlag scenarier för olika systemstöd](workshops/scenarior-modeller.md)
+* [Presentation till workshop](https://docs.google.com/presentation/d/13m_GIoAGZme_Qci1ev4koSywH9lP5Pm_9kDDTWgwhPA/edit?usp=sharing)
+
+### Genomgång av nulägesanalysen (leverans C) och vilka ytterligare delar som ska med i behovkartläggningen (leverans B).
+
+### Prioritering av kravställningar och testfall (levans D) utifrån vad som framkommit i behovskartläggningen (leverans C).
 
 ## Arbetsätt / process
 
