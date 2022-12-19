@@ -21,7 +21,7 @@ För att få en mer enhetlig dialog med de olika aktörerna togs 30 frågor fram
 
 Alla frågorna finns att läsa i ett [separat dokument](../dialoger/fragor.md).
 
-## Dialoger med aktörer
+## 2. Dialoger med aktörer
 
 Möten bokades in med 6 olika aktörer. Innan mötena efterfrågades följande roller kunde vara representerade, vilket realiserades i flera av fallen:
 
@@ -39,12 +39,12 @@ Resultatet av respektive dialog finns i separata dokument:
 * [Grunddatadomän Fastighets- och geografisk information](../dialoger/lantmateriet.md)
 * [Grunddatadomän hälsa, vård och omsorg](../dialoger/ehalsomyndigheten.md)
 
-## Sammanfattning av dialogerna
+## 3. ammanfattning av dialogerna
 
 Följande dokument är en sammanställning av svaren från alla aktörer:
 [Sammanfattning av dialogerna](dialoger/sammanfattning.md)
 
-## Framtagning av scenarier
+## 4. Framtagning av scenarier
 
 Sammanfattningen visade att det fanns både stora likheter och skillnader mellan de olika aktörerna. De viktigaste observationerna var:
 
@@ -68,7 +68,7 @@ Ett nationellt verktyg etableras som möjliggör uttryck av informationselement 
 ### Scenario D - Nationellt bibliotek och verktyg för informationsmodeller och informationselement
 I detta scenario kan aktörer välja själva om de vill jobba i det nationella verktyget eller fortsätta att jobba i sina lokala verktyg och få sina informationsmodeller med informationselement insamlade till det nationella biblioteket. I det nationella verktyget kan man bygga nytt eller bygga vidare på både det som skapats direkt i verktyget och det som samlats in till det nationella biblioteket.
 
-## Workshop kring scenarior
+## 5. Workshop kring scenarior
 
 En workshop hölls kring sammanfattningen av dialogerna samt slutsatserna i form av scenarior. Workshoppen [innefattade en presentation](https://docs.google.com/presentation/d/13m_GIoAGZme_Qci1ev4koSywH9lP5Pm_9kDDTWgwhPA/edit?usp=sharing) och den efterföljande diskussionen handlade både om scenarios och behovet att klargöra vilka fördelar som ett nationellt systemstöd skulle innebära.  
 
