@@ -39,10 +39,10 @@ Resultatet av respektive dialog finns i separata dokument:
 * [Grunddatadomän Fastighets- och geografisk information](../dialoger/lantmateriet.md)
 * [Grunddatadomän hälsa, vård och omsorg](../dialoger/ehalsomyndigheten.md)
 
-## 3. ammanfattning av dialogerna
+## 3. Sammanfattning av dialogerna
 
 Följande dokument är en sammanställning av svaren från alla aktörer:
-[Sammanfattning av dialogerna](dialoger/sammanfattning.md)
+[Sammanfattning av dialogerna](../dialoger/sammanfattning.md)
 
 ## 4. Framtagning av scenarier
 
@@ -70,6 +70,6 @@ I detta scenario kan aktörer välja själva om de vill jobba i det nationella v
 
 ## 5. Workshop kring scenarior
 
-En workshop hölls kring sammanfattningen av dialogerna samt slutsatserna i form av scenarior. Workshoppen [innefattade en presentation](https://docs.google.com/presentation/d/13m_GIoAGZme_Qci1ev4koSywH9lP5Pm_9kDDTWgwhPA/edit?usp=sharing) och den efterföljande diskussionen handlade både om scenarios och behovet att klargöra vilka fördelar som ett nationellt systemstöd skulle innebära.  
+En workshop hölls kring sammanfattningen av dialogerna samt slutsatserna i form av scenarior. Workshoppen [innefattade en presentation](https://docs.google.com/presentation/d/13m_GIoAGZme_Qci1ev4koSywH9lP5Pm_9kDDTWgwhPA/edit?usp=sharing) [presentationen som pdf](../workshops/workshop1.pdf) och den efterföljande diskussionen handlade både om scenarios och behovet att klargöra vilka fördelar som ett nationellt systemstöd skulle innebära.  
 
 Det poängterades att de fyra scenariorna sannolikt inte bör ses som fyra olika val utan som en progression mot ett starkare systemstöd. Det är värt att notera att det är först när man når till scenariot D som värdeerbjudandet av ett nationellt systemstöd för informationsmodeller blir riktigt starkt. Värdet blir här i form av både en tidsvinst i modelleringsfasen och enklare samverkan med andra aktörer då man är interoperabel i större utsträckning redan från början. Det finns också fördelar i att det finns mer guidning kring hur man ska tänka kring informationsmodellering och ett gemensamt språkbruk. Förhoppningsvis leder systemstödet och fram till mindre dubbelarbete och öppnar upp för mer transparans, innovation och effektivering.
