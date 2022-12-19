@@ -13,7 +13,7 @@ Förstudien ska leda fram till följande leverabler:
 ### B. Nulägesanalys
 En genomgång av existerande system och hur de kan möta olika behov. Särskilt fokus kommer läggas på system som är i drift i Sverige, våra nordiska grannländer och Europa i övrigt. En begränsning är att enbart system som är tillgängliga som öppen källkod kommer beaktas.
 
-### C. Behovskartläggning
+### [C. Behovskartläggning](leverabler/behovskartlaggning.md)
 Sammanställa behov från i huvudsak grunddatadomänerna men också andra aktörer. Man bör beakta både omedelbara praktiska behov och mer långsiktiga strategiska som hur man främjar interoperabilitet ur ett europeiskt / internationellt perspektiv. Behovskartläggningen ska också innefatta aspekter kring hur en lösning ska kunna integreras med övriga delar av Sveriges digitala infrastruktur, t.ex. Sveriges dataportal och befintliga lösningar som används på myndigheter idag.
 
 ### D. Kravställning och testfall
@@ -37,7 +37,7 @@ Under förstudien planerar referensgruppen ha tre gemensamma workshops:
 
 ### Introduktion till frågeställningarna kring systemstöd för informationsmodeller
 
-* [Underlag scenarier för olika systemstöd](workshops/scenarior-modeller.md)
+* [Underlag scenarier för olika systemstöd](leverabler/scenarior-modeller.md)
 * [Presentation till workshop](https://docs.google.com/presentation/d/13m_GIoAGZme_Qci1ev4koSywH9lP5Pm_9kDDTWgwhPA/edit?usp=sharing)
 
 ### Genomgång av nulägesanalysen (leverans C) och vilka ytterligare delar som ska med i behovkartläggningen (leverans B).
