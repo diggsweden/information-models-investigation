@@ -19,7 +19,7 @@ Följande fem lösningar har identifierats för en djupare analys:
 1. Sveriges dataportal
 2. Finska Tietomallit
 3. Norska Felles datakatalog
-4. EntryScape plattformen
+4. EntryScape Models
 5. Flamländska OSLO ramverket
 
 I följande kapitel går vi igenom de fem lösningarna i mer detalj, både hur de förvaltas och vilka av de 7 komponenterna de tillhandahåller.
@@ -66,7 +66,7 @@ Ur ett implementationsperspektiv utvecklas Tietomallit av Myndigheten för digit
 | 4. IE_NB  | -      | Funktionaliteten som finns ger en översikt över modeller inte enskilda återanvändbara informationselement. Visst stöd finns för den som är inloggad och ska välja vad som ska anpassa en existerande informationselement. |
 | 5. UML    | -      | Tietomallit stöder inte import från UML format som XMI och saknar tyvärr möjlighet att skörda in informationsmodeller även från andra format. Det innebär att man antingen får skapa allt manuellt i gränssnittet eller använda API:et för att maskinellt importera informationsmodeller (oklart hur komplicerat det är). |
 | 6. VER    | x      | Då Tietomallit är ett verktyg för att jobba med informationsmodeller är detta själva kärnan i verktyget. |
-| 7. DIA    | -      | Varje informationsmodell visualiseras i ett UML liknande diagram som kan justeras för optimal presentation. |
+| 7. DIA    | x      | Varje informationsmodell visualiseras i ett UML liknande diagram som kan justeras för optimal presentation. |
 
 ### Versionshantering och accesskontroll
 Accesskontroll baseras på en kombination av organisationstillhörighet och roller. Versionshanteringen löses i huvudsak genom att man låser en modell och skapar en kopia av modellen där man kan jobba vidare. 
@@ -107,10 +107,10 @@ Utvärderingen nedan är fokuserad på EntryScape modules, fler komponenter stö
 | 1. IM_NB  | -      | Stöds av EntryScape Blocks och Workbench. |
 | 2. IM_SK  | -      | Stöds av EntryScape Registry och Pipelines. |
 | 3. IE_LD  | x      | Klasser och properties sparas i en triplestore med hjälp av relevanta RDF vokabulärer som RDFS, SHACL. |
-| 4. IE_NB  | -      | Utforskning av klasser och properties finns inne i verktyget. Externts webbgränssnitt stöds enkelt med en konfiguration av EntryScape Blocks. |
+| 4. IE_NB  | x      | Utforskning av klasser och properties finns inne i verktyget. Externts webbgränssnitt stöds enkelt med en konfiguration av EntryScape Blocks. |
 | 5. UML    | -      | Import av UML i form av XMI utvärderas. Import från RDFS finns på plats, export planeras. Import och export av RDForms Templates finns på plats. Import och export av SHACL ligger i roadmap. |
 | 6. VER    | x      | Man kan skapa/importera och sen hantera klasser och properties. Applikationsprofiler skapas genom en hantering av fält och formulär. Verktyget stödjer att en modell bygger vidare eller förfinar en annan modell som är definierat i verktyget. Stöd för att bygga vidare på eller förfina en modell som skördats in ligger i roadmap. |
-| 7. DIA    | -      | Flera olika UML liknande diagram finns tillgängliga, fokuserande antingen på klasser och properties eller på applikationsprofiler. Manuell redigering av diagramen beräknas stödjas under våren. |
+| 7. DIA    | x      | Flera olika UML liknande diagram finns tillgängliga, fokuserande antingen på klasser och properties eller på applikationsprofiler. Manuell redigering av diagramen beräknas stödjas under våren. |
 
 ### Versionshantering och accesskontroll
 Accesskontroll sker genom att man explicit släpper in de som man ska samarbeta med per modell. 
