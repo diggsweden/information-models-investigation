@@ -144,7 +144,7 @@ Tabellen nedan sammanfattar grovt lösningsuppfyllnaden av de 7 komponenterna pe
 
 | Komponent | Dataportal | Tietomallit | Felles datakatalog | EntryScape Models | OSLO |
 |----------|------------|-------------|--------------------|-------------------|------|
-| 1. IM_NB | x          | x           | x                  | x                 | x    |
+| 1. IM_NB | x          | x           | x                  | -                 | x    |
 | 2. IM_SK | x          | -           | x                  | -                 | -    |
 | 3. IE_LD | -          | x           | -                  | x                 | x    |
 | 4. IE_NB | -          | -           | x                  | x                 | x    |
