@@ -38,9 +38,10 @@ Under förstudien planerar referensgruppen ha tre gemensamma workshops:
 ### Introduktion till frågeställningarna kring systemstöd för informationsmodeller
 
 * [Underlag scenarier för olika systemstöd](leverabler/scenarior-modeller.md)
-* [Presentation till workshop](https://docs.google.com/presentation/d/13m_GIoAGZme_Qci1ev4koSywH9lP5Pm_9kDDTWgwhPA/edit?usp=sharing)
+* [Presentation till workshop](https://docs.google.com/presentation/d/13m_GIoAGZme_Qci1ev4koSywH9lP5Pm_9kDDTWgwhPA)
 
 ### Genomgång av nulägesanalysen (leverans C) och vilka ytterligare delar som ska med i behovkartläggningen (leverans B).
+* [Presentation till workshop](https://docs.google.com/presentation/d/1_3p_HwNObKDGcfUeiqHB0W7Obkdysj0eMZaITyTd_UM)
 
 ### Prioritering av kravställningar och testfall (levans D) utifrån vad som framkommit i behovskartläggningen (leverans C).
 
