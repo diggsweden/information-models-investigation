@@ -52,7 +52,7 @@ Sammanfattningen visade att det fanns både stora likheter och skillnader mellan
 2. Arbetssättet inom de olika organisationerna varierar men det finns också stora likheter, t.ex. använder nästan alla UML klassdiagram eller motsvarande.
 3. Det finns stora beroenden till verktyg som man behöver ta hänsyn till.
 4. Det finns en vilja att anpassa hur man jobbar, men det är viktigt att hitta realistiska lösningar och tydliggöra vad man vinner med ett ändrat arbetssätt.
-5. En lösning måste möjliggöra gradvis anpassning från ett enklare bibliotek av informationsmodeller till full interoperabilitet.
+5. En lösning måste möjliggöra gradvis anpassning från ett enklare bibliotek av informationsmodeller till informationsmodeller som är uppbyggda av återanvändningsbara och interoperabla informationselement.
 
 Följande fyra scenarior har tagits fram, se [separat dokument](scenarior-modeller.md) för en längre diskussion om dessa scenarier och de komponenter de beror av.
 

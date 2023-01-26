@@ -10,7 +10,7 @@ Förstudien ska leda fram till följande leverabler:
 ### [A. Översikt](leverabler/oversikt.md)
 Översikt av vad som menas med informationsmodeller, systemstöd för informationsmodeller och relationer till annan metadata i en digital infrastruktur. Speciellt behöver koppling till ramverket för nationella grunddata samt European Interoperability Framework tydliggöras.
 
-### B. Nulägesanalys
+### [B. Nulägesanalys](leverabler/nulagesanalys.md)
 En genomgång av existerande system och hur de kan möta olika behov. Särskilt fokus kommer läggas på system som är i drift i Sverige, våra nordiska grannländer och Europa i övrigt. En begränsning är att enbart system som är tillgängliga som öppen källkod kommer beaktas.
 
 ### [C. Behovskartläggning](leverabler/behovskartlaggning.md)
