@@ -55,13 +55,13 @@ Dataportal.se är en öppen källkodsapplikation baserad på React som kommunice
 Tietomallit (interoperabilitetsplattformen) är en av tre närliggande plattformar utvecklade för att hantera informationsmodeller, begrepp och referensdata. Till skillnad från Sveriges dataportal gör Tietomallit ingen skillnad mellan en sökorienterad portal och ett redaktionellt verktyg. Verktyget är helt baserat på länkade data och tillåter användarna att skapa både klasser och egenskaper samt återanvända dem i olika applikationsprofiler. Vidare använder verktyget en kombination av SKOS, RDFS, Dublin Core Application Profiles, SHACL och egna properties för att realisera uttrycken.
 
 ### Utveckling och förvaltningsperspektiv
-Ur ett implementationsperspektiv utvecklas Tietomallit av Myndigheten för digitalisering och befolkningsdata (DVV) och tillhandahålls som öppen källkod. Ytterligare några aktörer i Europa har visat intresse för plattformen, inklusive svenska Bolagsverket. Det finns signaler som tyder på att man är öppen för samarbete kring hur plattformen ska vidareutvecklas. Det finns idag ingen tydlig förvaltningsmodell som tar hänsyn till andra aktörers intressen, dock finns en utvecklargrupp om 3-5 personer som jobbar aktivt med plattformen. Det finns inte heller i dagsläget någon etablerad kommersiell support kring plattformen.
+Ur ett implementationsperspektiv utvecklas Tietomallit av Myndigheten för digitalisering och befolkningsdata (DVV) och tillhandahålls som öppen källkod. Ytterligare några aktörer i Europa har visat intresse för plattformen, inklusive svenska Bolagsverket. Det finns signaler som tyder på att man är öppen för samarbete kring hur plattformen ska vidareutvecklas. Det finns idag ingen tydlig förvaltningsmodell som tar hänsyn till andra aktörers intressen, dock finns en utvecklargrupp om ca. 7 personer som jobbar aktivt med plattformen. Det finns inte heller i dagsläget någon etablerad kommersiell support kring plattformen.
 
 ### Komponenter som stöds
 | Komponent | Status | Kommentar |
 |-----------|--------|------|
 | 1. IM_NB  | x      | Informationsmodeller är samlade i ett bibliotek och kan utforskas antingen via kategorier eller via fritextsökning. |
-| 2. IM_SK  | -      | Verktyget stöder inte skördning av. |
+| 2. IM_SK  | -      | Verktyget stöder inte skördning av informationsmodeller. |
 | 3. IE_LD  | x      | Informationselement sparas i en triplestore med hjälp av relevanta RDF vokabulärer som RDFS, SHACL och DCAP. |
 | 4. IE_NB  | -      | Funktionaliteten som finns ger en översikt över modeller inte enskilda återanvändbara informationselement. Visst stöd finns för den som är inloggad och ska välja vad som ska anpassa en existerande informationselement. |
 | 5. UML    | -      | Tietomallit stöder inte import från UML format som XMI och saknar tyvärr möjlighet att skörda in informationsmodeller även från andra format. Det innebär att man antingen får skapa allt manuellt i gränssnittet eller använda API:et för att maskinellt importera informationsmodeller (oklart hur komplicerat det är). |

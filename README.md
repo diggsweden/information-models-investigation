@@ -41,9 +41,12 @@ Under förstudien planerar referensgruppen ha tre gemensamma workshops:
 * [Presentation till workshop](https://docs.google.com/presentation/d/13m_GIoAGZme_Qci1ev4koSywH9lP5Pm_9kDDTWgwhPA)
 
 ### Genomgång av nulägesanalysen (leverans C) och vilka ytterligare delar som ska med i behovkartläggningen (leverans B).
+* [Nulägesanalys](leverabler/nulagesanalys.md)
 * [Presentation till workshop](https://docs.google.com/presentation/d/1_3p_HwNObKDGcfUeiqHB0W7Obkdysj0eMZaITyTd_UM)
 
 ### Prioritering av kravställningar och testfall (levans D) utifrån vad som framkommit i behovskartläggningen (leverans C).
+* [Kravställning och testfall](leverabler/kravstallning.md)
+* [Presentation till workshop](https://docs.google.com/presentation/d/1uYB70FRIyHYeaaKG1UpENv23TfnhJkr_kSIrXR_Nx4s/edit?usp=sharing)
 
 ## Arbetsätt / process
 
