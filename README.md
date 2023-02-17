@@ -16,7 +16,7 @@ En genomgång av existerande system och hur de kan möta olika behov. Särskilt 
 ### [C. Behovskartläggning](leverabler/behovskartlaggning.md)
 Sammanställa behov från i huvudsak grunddatadomänerna men också andra aktörer. Man bör beakta både omedelbara praktiska behov och mer långsiktiga strategiska som hur man främjar interoperabilitet ur ett europeiskt / internationellt perspektiv. Behovskartläggningen ska också innefatta aspekter kring hur en lösning ska kunna integreras med övriga delar av Sveriges digitala infrastruktur, t.ex. Sveriges dataportal och befintliga lösningar som används på myndigheter idag.
 
-### D. Kravställning och testfall
+### [D. Kravställning och testfall](leverabler/kravstallning.md)
 Kravställning med tydliga testfall tas fram i samverkan med referensgruppen utifrån en prioritering av den behovskartläggning som gjorts.
 
 ## Referensgrupp
