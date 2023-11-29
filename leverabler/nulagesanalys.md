@@ -22,6 +22,12 @@ Följande fem lösningar har identifierats för en djupare analys:
 4. EntryScape Models
 5. Flamländska OSLO ramverket
 
+En sjätte lösning RUT (Register Utiliser Tool) som utvecklas av Vetenskapsrådet har också beaktats i korthet, men inte inkluderats i den djupare analysen av följande skäl:
+
+1. RUT bygger på GSIM modellen (Generic Statistic Information Model) vilket innebär att huvudfokus är att stödja behov inom statistikområdet. En konsekvens är att kompetens och mjukvarustöd för GSIM och relaterade teknologier utanför statistikområdet är bristfälligt.
+2. GSIM erbjuder inte ett generellt stöd för informationsmodellering som t.ex. RDF och UML gör, t.ex. saknas en rikt sätt att uttrycka relationer mellan klasser (klasser kallas unit types i GSIM).
+2. RUT utvecklas inte som öppen källkod.
+
 I följande kapitel går vi igenom de fem lösningarna i mer detalj, både hur de förvaltas och vilka av de 7 komponenterna de tillhandahåller.
 
 ## Sveriges dataportal
